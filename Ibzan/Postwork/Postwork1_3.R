@@ -28,8 +28,7 @@ library(extrafont)
 p_g_casa <- as.data.frame(p_g_casa)
 names(p_g_casa) <- c("Goles", "Probabilidad")
 font_import("Trebuchet MS")
-font_import()
-y
+
 g.p_g_casa <- ggplot(data = p_g_casa, aes(x = Goles, y = Probabilidad)) +
   geom_bar(stat = "identity", col = "#962D2D", fill = "#E798AE") +
   labs(title = "Probabilidades", caption = "Basado en los datos de LaLiga") +
