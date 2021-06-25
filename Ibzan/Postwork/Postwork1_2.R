@@ -1,3 +1,5 @@
+# Postwork 2
+
 liga17_18 <- read.csv("https://www.football-data.co.uk/mmz4281/1718/SP1.csv")
 liga18_19 <- read.csv("https://www.football-data.co.uk/mmz4281/1819/SP1.csv")
 liga19_20 <- read.csv("https://www.football-data.co.uk/mmz4281/1920/SP1.csv")
