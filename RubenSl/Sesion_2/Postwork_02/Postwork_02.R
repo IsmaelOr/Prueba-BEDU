@@ -4,9 +4,9 @@ library(dplyr)
 
 # 1-
 # Se Importa datos de soccer de la temporada 2017/2018, 2018-2019, 2019-2020 de la primera división
-URL_17_18 <- "https://www.football-data.co.uk/mmz4281/1718/SP1.csv"
-URL_18_19 <- "https://www.football-data.co.uk/mmz4281/1819/SP1.csv"
-URL_19_20 <- "https://www.football-data.co.uk/mmz4281/1920/SP1.csv"
+  URL_17_18 <- "https://www.football-data.co.uk/mmz4281/1718/SP1.csv"
+  URL_18_19 <- "https://www.football-data.co.uk/mmz4281/1819/SP1.csv"
+  URL_19_20 <- "https://www.football-data.co.uk/mmz4281/1920/SP1.csv"
 
 setwd(choose.dir(caption = "Select folder"))
 

@@ -156,7 +156,8 @@ library(dplyr)
   Conj <- as.data.frame(P_Conj)
   colnames(Conj) <- c("Goles_Local", "Goles_Visit","Probabilidad"); Conj
 
-
+library(ggplot2)
+library(plotly)
 # Grafico de barras para las prob. marginales del numero de goles del equipo Local  
   GL <- ggplot(Local, aes(x = Goles, y = Probabilidad)) + 
     geom_col(colour = "black", fill= "yellow") +
